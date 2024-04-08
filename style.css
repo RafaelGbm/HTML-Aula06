@@ -1,0 +1,64 @@
+.caixaAlta {
+    height: 150px;
+    width: 100px;
+    background: rgb(187, 92, 28);
+
+}
+
+.caixaAlta:hover {
+   background: rgb(0, 255, 149);
+   
+}
+
+.caixaAlta:visited {
+    background-color: black;
+}
+
+/* li:first-child {
+    color: rgb(31, 145, 221);
+}
+
+li:last-child {
+    color: red;
+} */
+
+/* li:nth-child(2n+2) {
+color: aquamarine;
+} */
+
+li:not(.meu-item) {
+    color: green;
+}
+
+/* :checked {
+    margin-left: 25px;
+} */
+
+input[type="radio"]:checked{
+    margin-left: 25px;
+}
+input[type="checkbox"]:checked{
+    margin-left: 25px;
+}
+
+input[type=email]:invalid{
+    background: green;
+}
+
+input[type=email]:valid{
+    background: rgb(0, 103, 172);
+}
+
+p::first-letter {
+    color: red;
+    text-transform: uppercase;
+}
+
+p::first-line{
+    color: blue;
+}
+
+p::selection{
+    color: red;
+    background: yellow;
+}
